@@ -1,0 +1,84 @@
+.experience {
+  
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  
+    margin-bottom: 8rem;
+    /* darkmode */
+    color: var(--black);
+  }
+  .achievement{
+     
+      flex-direction: column;    
+      align-items: center;
+  }
+
+  
+  
+  .achievement span:nth-of-type(2){
+      color: var(--orange);
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+      .experience{
+          transform: scale(0.7);
+      }
+  }
+
+  .experience {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+ 
+  }
+  
+  .experience-title {
+    
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .experience-card {
+  
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .position {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .company {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .duration {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .tasks {
+    list-style: inside square;
+  }
+  
+  .tasks li {
+    font-size: 14px;
+    color: var(--gray);
+    margin-bottom: 8px;
+  }
+  
+  .experience > :nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .position {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
