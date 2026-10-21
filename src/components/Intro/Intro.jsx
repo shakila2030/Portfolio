@@ -30,14 +30,10 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Shakila Kularathna</span>
           <span>
-          A passionate undergraduate at the University of Moratuwa with a solid
-foundation in programming languages who is eager to gain practical
-experience as a software engineering intern. An ambitious person who
-leverages problem-solving skills, effective communication, and a collaborative
-mindset to contribute to innovative projects. I possess the ability to
-communicate technical concepts to diverse audiences and thrive in team
-environments, combining strong leadership qualities with adaptability and a
-drive for continuous learning.
+          Software Engineer with 2 years of professional experience in software development, technical problem-solving, 
+          and system analysis. Skilled in developing effective solutions, analyzing complex issues, and applying software 
+          development practices to deliver reliable results. A dedicated team player with strong analytical, communication, 
+          and adaptability skills, committed to continuous learning and professional growth.
 
           </span>
         </div>
